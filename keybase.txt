@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/zacharyd
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://zach.ie
+  * I am zacharyd (https://keybase.io/zacharyd) on keybase.
+  * I have a public key with fingerprint 1C23 CED1 8158 43D2 342B  5982 E593 4E1C 6084 41B4
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "012055e7c2bf2b6abe36a2aa7b61fabee521416b5f4e880990a3a1a9e2c498cf3a820a",
+            "fingerprint": "1c23ced1815843d2342b5982e5934e1c608441b4",
+            "host": "keybase.io",
+            "key_id": "e5934e1c608441b4",
+            "kid": "01015b01ed6074078f764b021e32e131a3b592c233a924c59be330800db49952014f0a",
+            "uid": "8051353af7aac4a7a9e4236c4b4b9e19",
+            "username": "zacharyd"
+        },
+        "service": {
+            "hostname": "zach.ie",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1460501352,
+    "expire_in": 157680000,
+    "prev": "1bc77e66b66a34303e535c7a16d976059d112a0dd7193f29bba8f1ffd785f565",
+    "seqno": 7,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.53
+Comment: https://keybase.io/crypto
+
+yMNnAnicbVJ/TFVlGAah+KF3wYLpyChODDKIznfO950fVxGIO5hSWNnCMde93znn
+O3AE7r3ce4EuF7YKowwUM5TAsLJMlzFyAgvJ+DlGZaizYe7ugrhKnGiSBlmYncNy
+64/+eve+e57nfZ5374gpJCgy+Od381fbtmd1BX83uKciqMDkK/ZRkkPxUmYfVUKW
+CilViNtjLdEUykzRgKERIrzMSCojcVgiLIcZjHmJA6reEcQACDgJqZAIAi2KNGYx
+wCJhZCgKsspigaExlUqpmr2IuJwuze7RZYHMsDJRgACQAFmFYSEjIVFgCBJZSIDM
+0QKEQII6sdjhNhi6OQm7SZrm0Gd6Y12y9z/4e75pgCQaEIWjeUjzgspzUKIZQFiG
+ABZgVt/H6C5YLDJQRqIejKUFmlYkKIqIoQFUl3xXLMkJNAIsYrHKYyxDzOsBIcNy
+MpSgJBIgGkA3cdlxGdHR1Vguxi6vQtWmUvq0UpOJcVgjyX8QaRrRaU6Xw+OQHaX6
+sNjjcbrNBsnjdRqoKiJZ/+VbJc2u6CfUGZXE5dYcdsoMdKTs0QxBADka0bpFJpUi
+rzg1F7FqBgLxnJ6Jpo09pNI4vCTzPOE4ieMwC1maJYhFMo8Bp4i8riEqADCYVhQe
+iKzKiJKEBRWoqsILSEUcooxE5XYHZeZ1m7hIl3RrRXbsqXARqnZocGtoUHBk0P33
+LTNeKygyIurew/06FBX0/h+2pPqzYUrSxfjkHU0TV16rjL0wckvd3Vd27laLv/Ny
+R0x7Ts8XLyXbVv30bML02/1Pltzc/IIl0/9NQSeVbzpiTanbFGY6c26zsP/LCu5U
+bCCWu3Yhe7by8+VDB9piDw4vLmZ73SdaVo6dTA4cW7XvUB/aDz2BjjO7nv79l5rx
+h5WcksXRPN/ZUvOMub31xKUf550pAx0NrfO/Na2Oo0PbRpvFqY3diu25ihvdl7J6
+os+nz1w7LQYayt7c99VY3Br+A/TAlvVoYu9C/dXPosUHt+K9s1mHjg1/X1R9+Xq4
+zbsSrndY+LrDvX8PXMQbDjNDIzcWt8U1zmmhDS+WZ+75s3B20AmtCxGbelIyjkZX
+9Ya8+mhafv/CkfHy9ofUrsb0sbja42/dnG9wOiWM2q/frq95vjmmsA5HoAzLZGJB
+v+3rkTt9EdNdCWN+zdKYm7X9vaS8kbI6eLt51DTZ21lNpSfM5h68+/rc0HSu1xOl
+dlnOb4nwP9Zaevfj0MWWT9a9PLkjfKecDWJcz2TPRLVsPF61O2yqMZF7o5P0J2xw
+TK19JDyOvuLrLv2r6fFYf0zTQNZgovxRdtvp+OXbxMiQdc2R46niO2Mn5/DRUZM6
+cSok09v/bcmww7Jmyv/hstq1A3KgWPBVz/xgvZNQuOIqytuFG5pyzGzg0xr3Uxkr
+4pOeOPAP+6e6Kg==
+=ZMtF
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/zacharyd
+
+==================================================================

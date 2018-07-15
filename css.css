@@ -1,0 +1,157 @@
+        * {
+            font-family: 'Bitter', serif;
+        }
+        html { 
+            background: url(img/background.jpg) no-repeat center center fixed; 
+            background-color: #C5C7DA;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+        body {
+            overflow: hidden;
+            margin: 0px;
+        }
+        a {
+            text-decoration: none;
+        }
+        svg.icon {
+            width: 20px;
+            height: 30px;
+            vertical-align: middle;
+        }
+        h2.title {
+            font-size: 60px;
+            margin: 10px 0px;
+        }
+        @media only screen and (min-width:960px) {
+            .container {
+                overflow: auto;
+                max-height: 100%;
+                margin-right: -100px;
+                padding-right: 100px;
+            }
+        }
+        div.intro {
+            position: relative;
+            padding-top: 15%;
+            text-align: center;
+        }
+        div.portfolio, div.title {
+            z-index:0; 
+            -webkit-transform: translateZ( 0 );
+            transform: translateZ( 0 );
+            -webkit-transition: -webkit-transform 0.6s ease-in-out;
+            transition: transform 0.6s ease-in-out;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            max-width: 500px;
+            display: inline-block;
+        }
+        @media only screen and (max-height:750px) {
+            div.portfolio {
+                visibility: hidden;
+            }
+            span.next {
+                display: inline !important;
+            }
+            div.footer {
+                visibility: hidden;
+            }
+        }
+        div.footer {
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            margin: 3px;
+        }
+        span.button {
+            border: 4px double #444;
+            border-radius: 50%;
+            display: inline-block;
+            width: 32px;
+            height: 32px;
+            padding: 10px;
+            margin: 10px 5px;
+        }
+        span.site {
+            display:inline-block;
+        }
+        span.site .text {
+            font-size: 14px;
+            color: black;
+            text-shadow: 0.1em 0.1em 0.2em white;
+        }
+        span.site img {
+            border: 2px solid #444;
+            margin: 5px;
+            border-radius: 5px;
+            margin-bottom: 5px;
+            display: block;
+            width: 130px;
+            height: 97px;
+        }
+        div.buttons {
+            -webkit-animation-delay:0.2s;
+            animation-delay:0.2s;
+        }
+        div.buttons a {
+            color: black;
+        }
+        span.button i.fa {
+            margin-top: 6px;
+        }
+        span.next {
+            display: none;
+            font-size: 14px;
+            -webkit-animation-delay:0.4s;
+            animation-delay:0.4s;
+        }
+        div.footer, span.next a {
+            color: black;
+            text-shadow: 0.2em 0.1em 0.2em white;
+        }
+        span#link-text-up {
+            display: none;
+        }
+        .animate {
+            -webkit-animation-name: fade;
+            animation-name: fade;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+            -webkit-animation-duration: 0.7s;
+            animation-duration: 0.7s;
+        }
+        @keyframes fade {
+            0% {
+                opacity: 0;
+                -webkit-transform: translateY(20px);
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                -webkit-transform: translateY(0px);
+                transform: translateY(0px);
+            }
+        }
+
+        a[ id= "portfolio" ]:target ~ .container .intro div.portfolio {
+            -webkit-transform: translateY( -300px );
+            transform: translateY( -300px );
+            visibility: visible;
+            margin-top: 10px;
+        }
+        a[ id= "portfolio" ]:target ~ .container .intro div.footer {
+            visibility: visible;
+        }
+        a[ id= "portfolio" ]:target ~ .container .intro div.title {
+            -webkit-transform: translateY( -300px );
+            transform: translateY( -300px );
+        }
+        a[ id= "portfolio" ]:target ~ .container #link-text-down {
+            display: none;
+        }
+        a[ id= "portfolio" ]:target ~ .container #link-text-up {
+            display: block;
+        }
